@@ -1,0 +1,16 @@
+I"è<ul>
+  <li><a href="/intro">Introduction</a></li>
+  <li><a href="/variables">Variables</a></li>
+  <li><a href="/operators">Operators and input</a></li>
+  <li><a href="/conditions">Conditions</a></li>
+  <li><a href="/DataStructure">DataStructure</a></li>
+  <li><a href="/loops">Loops and Iterables</a></li>
+  <li><a href="/strings">Strings</a></li>
+  <li><a href="/functions">Functions</a></li>
+  <li><a href="/errorhandling">Error Handling</a></li>
+  <li><a href="/filehandling">File IO</a></li>
+  <li><a href="/local_global">Global and local variables</a></li>
+  <li><a href="/class_and_object">Class and Object</a>
+<a href="/python">back</a></li>
+</ul>
+:ET

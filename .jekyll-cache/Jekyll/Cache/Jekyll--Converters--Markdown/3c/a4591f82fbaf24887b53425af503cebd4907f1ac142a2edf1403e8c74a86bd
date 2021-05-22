@@ -1,0 +1,15 @@
+I"­<p>Python is an object oriented programming language. Almost everything in Python is based on Object oriented programming and its properties, methodsâ€¦.</p>
+
+<h1 id="class">Class</h1>
+
+<p>A class in python is created by using the keyword <code class="language-plaintext highlighter-rouge">class</code></p>
+
+<p>```python3</p>
+
+<p>class MyClass:
+  x = 5</p>
+
+<p><a href="#">Top</a></p>
+
+<p><a href="/python_beginner">Back</a></p>
+:ET

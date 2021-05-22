@@ -1,0 +1,69 @@
+I"±<p>Python is an object oriented programming language. Almost everything in Python is based on Object oriented programming and its properties, methodsâ€¦.</p>
+
+<h1 id="class">Class</h1>
+
+<p>A class in python is created by using the keyword <code class="language-plaintext highlighter-rouge">class</code></p>
+
+<pre><code class="language-python3">
+class MyClass:
+  x = 5
+
+print(MyClass)
+
+# Output
+&lt;class '__main__.MyClass'&gt;
+
+</code></pre>
+
+<h1 id="object">Object</h1>
+
+<p>Now we can use the class named MyClass to create objects:</p>
+
+<pre><code class="language-python3">
+class MyClass:
+  x = 5
+
+a=Myclass()
+print(a.x)
+
+# Output
+5
+
+</code></pre>
+
+<h1 id="the-init-function">The <strong>init</strong>() Function</h1>
+
+<p>All classes in python have a function called <code class="language-plaintext highlighter-rouge">__init__()</code>, which is always executed when the class is being initiated. The <code class="language-plaintext highlighter-rouge">__init__()</code> function is called automatically every time the class is being used When a new object is created.</p>
+
+<pre><code class="language-python3">
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
+
+# Output
+
+John
+36
+
+</code></pre>
+
+<h1 id="self-parameter">Self parameter</h1>
+
+<p>The <code class="language-plaintext highlighter-rouge">self</code> parameter is a reference to the current instance of the class, and is used to access variables that belong to the class. It does not have to be named <code class="language-plaintext highlighter-rouge">self</code> , you can call it whatever you like, but it has to be the first parameter of any function in the class.</p>
+
+<p>modify properties on objects like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+</code></pre></div></div>
+
+<p><a href="#">Top</a></p>
+
+<p><a href="/python_beginner">Back</a></p>
+:ET
