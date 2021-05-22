@@ -1,11 +1,11 @@
 ---
 permalink: /another
-layout: encrypted_post
+layout: index
 passphrase: test
 title: monitor
 ---
 
-## Welcome to another page
+ Welcome to another page
 
 # helloworld
 

@@ -52,7 +52,8 @@
                 placeholder="<html><head>..."
                 rows="5"
                 value="{{content}}"
-              ></textarea>
+              >
+              </textarea>
             </div>
             <p>
               <a href="#" id="toggle-extra-option">+ More options</a>
@@ -219,8 +220,8 @@ Filename changed to circumvent adblockers that mistake it for a crypto miner (se
         CKEDITOR.instances["instructions"].updateElement();
 
         var unencrypted = document.getElementById("unencrypted_html").value;
-        let str = unencrypted.slice(0, unencrypted.length - 18);
-        // console.log(str);
+        let str = unencrypted.slice(0, unencrypted.length - 33);
+        console.log(str);
         // console.log(unencrypted);
 
         var passphrase = document.getElementById("passphrase").value;
