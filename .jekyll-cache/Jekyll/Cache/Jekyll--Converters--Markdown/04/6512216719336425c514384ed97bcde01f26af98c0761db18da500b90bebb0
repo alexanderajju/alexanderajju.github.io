@@ -1,0 +1,46 @@
+I"M<p>A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.</p>
+
+<ul>
+  <li><strong>This Tutorial is mainly focused for users using Linux based Operating system, Mac and Windows 10</strong></li>
+</ul>
+
+<h1 id="lets-begin">Let’s Begin</h1>
+
+<ul>
+  <li>Operating Sytem(mine)- Parrot Security</li>
+  <li>Editor(mine) - vim</li>
+</ul>
+
+<p>Any editor can be used for this tutorials its fully upto you guys. <a href="https://code.visualstudio.com">VisalStudio code</a> is recommended for beiginners. In bash scripting any linux terminal commands can be used</p>
+
+<p>In order to get start we must add following to our file’s first line <code class="language-plaintext highlighter-rouge">#!/bin/bash</code></p>
+
+<p>Adding <code class="language-plaintext highlighter-rouge">#!/bin/bash</code> as the first line of our script, tells the OS to invoke the specified shell to execute the commands that follow in the script. <code class="language-plaintext highlighter-rouge">#!</code> is often referred to as a “hash-bang”, “she-bang” or “sha-bang”</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+</code></pre></div></div>
+
+<h1 id="hello-world">Hello world</h1>
+
+<p>Let’s begin our first script  by creating a hello world. Move to favorable directory</p>
+
+<ul>
+  <li>
+    <p>Create a file named <code class="language-plaintext highlighter-rouge">hello.sh</code></p>
+  </li>
+  <li>
+    <p>Add the following in to the file and save the file</p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="nb">echo</span> <span class="s2">"Hello World!"</span>
+
+</code></pre></div></div>
+<ul>
+  <li>To execute the script open the terminal in the directory where `hello.sh is located</li>
+</ul>
+
+:ET
