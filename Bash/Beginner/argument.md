@@ -60,7 +60,7 @@ echo "${args[@]}
 
 # Third Method
 
-- Using of flags. This method can be implemented using `case` and loops.
+- Using of flags. This method can be implemented using `case`, `getopts` loops.
 
 ![Arguments](/Bash/Beginner/arguments.gif)
 
