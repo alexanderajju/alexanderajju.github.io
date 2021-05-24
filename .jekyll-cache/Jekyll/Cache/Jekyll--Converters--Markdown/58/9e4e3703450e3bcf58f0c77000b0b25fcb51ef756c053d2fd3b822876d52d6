@@ -1,0 +1,10 @@
+I",<p>To pass any number of arguments to the bash function simply put them right after the function’s name, separated by a space. It is a good practice to double-quote the arguments to avoid the misparsing of an argument with spaces in it. The passed parameters are <code class="language-plaintext highlighter-rouge">$1</code> , <code class="language-plaintext highlighter-rouge">$2</code> , <code class="language-plaintext highlighter-rouge">$3</code></p>
+
+<h1 id="first-method">First method</h1>
+
+<p>```bash</p>
+
+<p>#! /bin/bash</p>
+
+<p>echo $1 $2 $`</p>
+:ET

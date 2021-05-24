@@ -10,4 +10,6 @@ permalink: bash_beginner
 
 [Input](/bash_input)
 
+[Arguments](/bash_arguments)
+
 [Back](/bash)

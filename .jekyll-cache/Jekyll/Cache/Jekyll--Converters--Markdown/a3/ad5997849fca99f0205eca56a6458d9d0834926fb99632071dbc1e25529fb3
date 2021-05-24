@@ -1,0 +1,63 @@
+I"H
+<p>To pass any number of arguments to the bash function simply put them right after the function’s name, separated by a space. It is a good practice to double-quote the arguments to avoid the misparsing of an argument with spaces in it. The passed parameters are <code class="language-plaintext highlighter-rouge">$1</code> , <code class="language-plaintext highlighter-rouge">$2</code> , <code class="language-plaintext highlighter-rouge">$3</code></p>
+
+<h1 id="first-method">First method</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c">#! /bin/bash</span>
+
+<span class="nb">echo</span> <span class="nv">$1</span> <span class="nv">$2</span> <span class="nv">$3</span> <span class="s1">'echo $1 $2 $3'</span>
+
+
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+┌──<span class="o">(</span>aju㉿ParrotOs<span class="o">)</span>-[~/Aju/bash__scripiting]
+└─<span class="nv">$ </span>./arguments.sh 1 2 3
+
+<span class="c"># Output</span>
+
+1 2 3 <span class="nb">echo</span> <span class="nv">$1</span> <span class="nv">$2</span> <span class="nv">$3</span>
+
+</code></pre></div></div>
+
+<h1 id="second-method">Second Method</h1>
+
+<ul>
+  <li>Using array</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c">#! /bin/bash</span>
+
+<span class="nv">args</span><span class="o">=(</span><span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span><span class="o">)</span>
+
+<span class="nb">echo</span> <span class="s2">"</span><span class="k">${</span><span class="nv">args</span><span class="p">[@]</span><span class="k">}</span><span class="s2">
+
+
+</span></code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+┌──<span class="o">(</span>aju㉿ParrotOs<span class="o">)</span>-[~/Aju/bash__scripiting]
+└─<span class="nv">$ </span>./arguments.sh 1 2 3
+
+<span class="c"># Output</span>
+
+1 2 3
+
+</code></pre></div></div>
+
+<ul>
+  <li>total number of arguments passed by the user can be displayed by passing <code class="language-plaintext highlighter-rouge">$@</code> in <code class="language-plaintext highlighter-rouge">echo</code>.</li>
+</ul>
+
+<h1 id="third-method">Third Method</h1>
+
+<ul>
+  <li>Using of flags can be implemented using <code class="language-plaintext highlighter-rouge">case</code></li>
+</ul>
+
+<p><img src="/Bash/Beginner/arguments.gif" alt="Arguments" /></p>
+
+<p><a href="/bash_beginner">Back</a></p>
+:ET
