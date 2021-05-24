@@ -8,4 +8,6 @@ permalink: bash_beginner
 
 [Introduction](/bash_intro)
 
+[Input](/bash_input)
+
 [Back](/bash)

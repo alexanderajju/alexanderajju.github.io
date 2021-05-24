@@ -73,7 +73,12 @@
           <a href="{{ page.pdf_url }}" class="btn btn-github"
             ><span class="icon"></span>View as Pdf</a
           >
-          {% endif %} {% endif %}
+          {% endif %} {% else %}
+          <a href="{{ '/' | relative_url }}" class="btn btn-github"
+            ><span class="icon"></span>View Home</a
+          >
+
+          {% endif %}
         </section>
       </div>
     </header>
@@ -111,6 +116,10 @@
     {% endif %}
   </body>
   <style type="text/css">
+    html,
+    body {
+      overflow-x: hidden;
+    }
     #info {
       display: flex;
       justify-content: space-between;

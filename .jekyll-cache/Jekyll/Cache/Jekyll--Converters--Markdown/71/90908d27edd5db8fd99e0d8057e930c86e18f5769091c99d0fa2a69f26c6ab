@@ -1,0 +1,16 @@
+I"‡<h1 id="variables">Variables</h1>
+
+<p>There are no data types. A variable in bash can contain a number, a character, a string of characters.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nv">STR</span><span class="o">=</span><span class="s2">"Hello World!"</span>
+<span class="nb">echo</span> <span class="nv">$STR</span> 
+
+<span class="c"># Output</span>
+Hello 
+
+</code></pre></div></div>
+
+<p>Input to bash script can be taken using <code class="language-plaintext highlighter-rouge">echo</code> and <code class="language-plaintext highlighter-rouge">read</code> command</p>
+
+:ET

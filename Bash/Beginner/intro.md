@@ -1,6 +1,6 @@
 ---
 title: Introduction
-layout: pages
+layout: page
 publish: true
 description: Bash Beginner
 permalink: bash_intro
