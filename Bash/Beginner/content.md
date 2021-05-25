@@ -6,10 +6,12 @@ description: bash Beginner Topics
 permalink: bash_beginner
 ---
 
-[Introduction](/bash_intro)
+[Introduction](/bash/intro)
 
-[Input](/bash_input)
+[Input](/bash/input)
 
-[Arguments](/bash_arguments)
+[Arguments](/bash/arguments)
+
+[Conditions](/bash/conditions)
 
 [Back](/bash)

@@ -72,7 +72,7 @@ print('x ** y =',x**y)
 
 Assignment operators are used in Python to assign values to variables.
 
-| Operator | password                |
+| Operator | Usage                |
 | -------- | ----------------------- |
 | =        | x = 5                   |
 | -------- | ----------------------- |

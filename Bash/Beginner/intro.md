@@ -3,7 +3,7 @@ title: Introduction
 layout: page
 publish: true
 description: Bash Beginner
-permalink: bash_intro
+permalink: bash/intro
 ---
 
 

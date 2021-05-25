@@ -3,7 +3,7 @@ title: Argument passing
 layout: page
 publish: true
 description: Bash Beginner
-permalink: bash_arguments
+permalink: bash/arguments
 ---
 
 To pass any number of arguments to the bash function simply put them right after the function's name, separated by a space. It is a good practice to double-quote the arguments to avoid the misparsing of an argument with spaces in it. The passed parameters are `$1` , `$2` , `$3`

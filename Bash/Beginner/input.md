@@ -3,7 +3,7 @@ title: Bash Input and variables
 layout: pages
 publish: true
 description: Bash Beginner
-permalink: bash_input
+permalink: bash/input
 ---
 
 # Variables
