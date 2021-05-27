@@ -1,0 +1,42 @@
+I"Ë<p>In this tutorial we will learn about file operators in Shell Programming by using the <a href="/bash/conditions">if statement</a> to perform tests</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-e</td>
+      <td>To check if the file exists.</td>
+    </tr>
+    <tr>
+      <td>-r</td>
+      <td>To check if the file is readable.</td>
+    </tr>
+    <tr>
+      <td>-w</td>
+      <td>To check if the file is writable.</td>
+    </tr>
+    <tr>
+      <td>-x</td>
+      <td>To check if the file is executable.</td>
+    </tr>
+    <tr>
+      <td>-s</td>
+      <td>To check if the file size is greater than 0.</td>
+    </tr>
+    <tr>
+      <td>-d</td>
+      <td>To check if the file is a directory.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<p><a href="/bash_beginner">Back</a></p>
+:ET

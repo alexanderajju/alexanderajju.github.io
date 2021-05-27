@@ -14,4 +14,6 @@ permalink: bash_beginner
 
 [Conditions](/bash/conditions)
 
+[File](/bash/file_operations)
+
 [Back](/bash)
