@@ -14,3 +14,7 @@ Monitors was a Hard difficulty Linux box created by TheCyberGeek. Initial footho
 # [Delivery](/delivery)
 
 Delivery is a Easy 'Real World' style box from HTB and created by IPPSEC. It showcases problems in Help-desk systems and password reuse.
+
+# [Scriptkiddie](/scriptkiddie)
+
+ScriptKiddie is an easy difficulty Linux machine that presents a Msfvenom apk template injection, along with classic attack like OS command injection and an insecure passwordless sudo configuration.
