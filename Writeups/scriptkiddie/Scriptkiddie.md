@@ -1,7 +1,7 @@
 ---
 permalink: /scriptkiddie
 layout: post
-author: 0xdf
+author: '0xdf'
 title: Scriptkiddie
 date: 2021-06-05
 publish: True
