@@ -1,5 +1,5 @@
 ---
-permalink: /htb
+permalink: /tentacle
 layout: post
 author: polarbearer
 title: Tentacle
