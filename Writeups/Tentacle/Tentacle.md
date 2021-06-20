@@ -1,12 +1,12 @@
 ---
-permalink: /tentacle
+permalink: /htb
 layout: post
 author: polarbearer
 title: Tentacle
 date: 2021-06-19
 publish: True
 
-description: """Tentacle is a Hard linux machine featuring a Squid proxy server bypassing. Revealed host is vulnerable to OpenSMTPD service. Exploiting SMTPD service will allow us as a root user at smtp running as podman. On exploring we will get a valid credentials for making valid Kerberos ticket. This ticket then can be used to move laterally. Finally a cronjob can be exploited to escalate to another user who has privileges to add root user to Kerberos principals. This gives us a root shell."""
+description: "Tentacle is a Hard linux machine featuring a Squid proxy server bypassing. Revealed host is vulnerable to OpenSMTPD service. Exploiting SMTPD service will allow us as a root user at smtp running as podman. On exploring we will get a valid credentials for making valid Kerberos ticket. This ticket then can be used to move laterally. Finally a cronjob can be exploited to escalate to another user who has privileges to add root user to Kerberos principals. This gives us a root shell."
 ---
 
 # Skills Learned
@@ -264,3 +264,5 @@ Let's add root's principle into it with a new password
 Sucessfully created new principle for the root and we can login as root in the box using command `ksu` then it prompts for password enter the password used to create.
 
 ![](/Writeups/Tentacle/Pasted image 20210620092319.png)
+
+[Back](/)
