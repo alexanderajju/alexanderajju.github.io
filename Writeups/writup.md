@@ -21,5 +21,8 @@ ScriptKiddie is an easy difficulty Linux machine that presents a Msfvenom apk te
 
 # [Tenet](/tenet)
 
-Tenet is a Medium difficulty machine that features an Apache web server with wordpress blog site with few posts. Using serialization, made command execution on the box and made reverse shell
+Tenet is a Medium difficulty machine that features an Apache web server with wordpress blog site with few posts. Using serialization, made command execution on the box and made reverse shell.
 
+# [Tentacle](/tentacle)
+
+Tenet is a Medium difficulty machine that features an Apache web server with wordpress blog site with few posts. Using serialization, made command execution on the box and made reverse shell.

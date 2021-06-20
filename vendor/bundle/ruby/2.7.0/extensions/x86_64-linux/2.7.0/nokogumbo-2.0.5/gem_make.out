@@ -1,5 +1,5 @@
 current directory: /home/aju/alexanderajju.github.io/vendor/bundle/ruby/2.7.0/gems/nokogumbo-2.0.5/ext/nokogumbo
-/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20210610-46716-1ya0m55.rb extconf.rb
+/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20210614-6999-71fj79.rb extconf.rb
 *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
 libraries and/or headers.  Check the mkmf.log file for more details.  You may

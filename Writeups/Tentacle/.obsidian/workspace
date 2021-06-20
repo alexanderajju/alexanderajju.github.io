@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "ba0d68b55e537282",
+    "type": "split",
+    "children": [
+      {
+        "id": "e665a670326e1dcf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tentacle.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3e4e5c970d92b0a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f5b1e4ba6e44c56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ccfc22aef5b9472",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8a90fdc4ea4bf199",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "befc869e51dc880a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ae48b5a4cf656f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a291e112bf0291f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tentacle.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e665a670326e1dcf",
+  "lastOpenFiles": [
+    "Tentacle.md",
+    "Untitled.md"
+  ]
+}

@@ -56,7 +56,7 @@ Nmap done: 1 IP address (1 host up) scanned in 82.90 seconds
 
 Port 80
 
-![](/Writeups/Tenet/Pasted image 20210613021652.png))
+![](/Writeups/Tenet/Pasted image 20210613021652.png)
 
 Couldn't find any index pages. We do a `gobuster` to bruteforce to find directories on the machines
 
@@ -86,7 +86,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 Gobuster results gives a finding at wordpress
 
-![](/Writeups/Tenet/Pasted image 20210613022612.png))
+![](/Writeups/Tenet/Pasted image 20210613022612.png)
 
 The doesn't load any css we need to add domain to our host file
 
@@ -280,7 +280,7 @@ First the script will create a ssh-file in temp directory. `checkFile` will chec
 ```while true; do for file in /tmp/ssh-*; do echo "ssh-rsa BHNY+X0HdMPb2hknWpb2pLaHG4bJCAR+1QicX9C2hDI1g+3AReT583Up22a8a1egnKbZ/L3mbKfSIc=" > $file; done; done
 ```
 
-![](/Writeups/Tenet/Pasted image 20210613041541.png))
+![](/Writeups/Tenet/Pasted image 20210613041541.png)
 
 # Root
-![](/Writeups/Tenet/Pasted image 20210613041654.png))
+![](/Writeups/Tenet/Pasted image 20210613041654.png)
