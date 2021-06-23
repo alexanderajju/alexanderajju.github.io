@@ -1,4 +1,5 @@
 ---
+permalink: /writeup
 layout: pages
 description: Hackthebox
 ---
@@ -19,10 +20,6 @@ Delivery is a Easy 'Real World' style box from HTB and created by IPPSEC. It sho
 
 ScriptKiddie is an easy difficulty Linux machine that presents a Msfvenom apk template injection, along with classic attack like OS command injection and an insecure passwordless sudo configuration.
 
-# [Tenet](/tenet)
 
-Tenet is a Medium difficulty machine that features an Apache web server with wordpress blog site with few posts. Using serialization, made command execution on the box and made reverse shell.
 
-# [Tentacle](/tentacle)
-
-Tentacle is a Hard linux machine featuring a Squid proxy server bypassing. Revealed host is vulnerable to OpenSMTPD service.
+[prev](/writeup2) 

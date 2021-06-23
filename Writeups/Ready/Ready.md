@@ -13,4 +13,4 @@ description: "Ready is a medium difficulty Linux machine. A vulnerable version o
 - SSRF & CRLF Attacks
 - Docker Escape
 
-[back](../writup)
+[back](/writeup)

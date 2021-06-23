@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [Writeups](./Writeups/writup.html)
+# [Writeups](/writeup)
 
 # [Coding](./coding)
 

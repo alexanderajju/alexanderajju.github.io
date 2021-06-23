@@ -239,4 +239,4 @@ root@Delivery:~#
 
 ```
 
-[back](/Writeups/writup)
+[back](/writeup)
