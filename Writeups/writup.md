@@ -22,4 +22,4 @@ ScriptKiddie is an easy difficulty Linux machine that presents a Msfvenom apk te
 
 
 
-[prev](/writeup2) 
+[back](/) [prev](/writeup2) 
