@@ -16,8 +16,6 @@ description: "Tentacle is a Hard linux machine featuring a Squid proxy server by
 - OpenSMTPD Exploitation
 - Kerberos
 
-<asciinema-player src="/Writeups/Tentacle/421504.cast"></asciinema-player>
-
 # Enumeration
 
 ## Nmap
