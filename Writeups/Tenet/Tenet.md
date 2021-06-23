@@ -284,3 +284,5 @@ First the script will create a ssh-file in temp directory. `checkFile` will chec
 
 # Root
 ![](/Writeups/Tenet/Pasted image 20210613041654.png)
+
+[Back](/writeup2)
