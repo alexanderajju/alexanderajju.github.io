@@ -13,7 +13,7 @@ description: "Spectra is an easy difficulty Linux machine which has an Issue Sof
 - Lateral Movement
 - File System Permissions
 - Sudo Exploitation
-S
+
 # Enumeration
 
 ## Nmap
@@ -304,7 +304,7 @@ On exploring the system plain text password was found in `/etc/autologin/passwd`
 
 |user|password|
 |---|---|
-kaite|SummerHereWeCome!!|
+katie|SummerHereWeCome!!|
 
 # Privilege Escalation
 
@@ -312,7 +312,7 @@ Lets ssh into the box using the creds as the user kaite
 
 ![](/Writeups/Spectra/Pasted image 20210627035805.png)
 
-user kaite can run following as root without password lets Exploit that. 
+user katie can run following as root without password lets Exploit that. 
 Initctl is an init daemon control tool. Lets edit init test config at `/etc/init/test.config` and add suid to bash 
 
 ![](/Writeups/Spectra/Pasted image 20210627040101.png)
