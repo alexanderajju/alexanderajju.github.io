@@ -6,8 +6,7 @@ title: Writeup
 date: 2021-07-02
 publish: True
 
-description: "Writeup is an easy difficulty Linux box with DoS protection in place to prevent brute forcing. A CMS is found, and contains a SQL injection vulnerability, which is leveraged to gain user
-credentials. The user is found to be in a non-default group, which gives write access to part
+description: "Writeup is an easy difficulty Linux box with a CMS DoS protection in place to prevent brute forcing with a SQL injection vulnerability, which is leveraged to gain user credentials.. The user is found to be in a non-default group, which gives write access to part
 of the PATH. A path hijacking results in escalation of privileges to root.
 "
 ---
