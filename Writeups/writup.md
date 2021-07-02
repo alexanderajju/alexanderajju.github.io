@@ -1,5 +1,5 @@
 ---
-permalink: /writeup
+permalink: /writeups
 layout: pages
 description: Hackthebox
 ---
@@ -22,4 +22,4 @@ ScriptKiddie is an easy difficulty Linux machine that presents a Msfvenom apk te
 
 
 
-[back](/) [prev](/writeup2) 
+[back](/) [prev](/writeups2) 

@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "29c5fa8b1dc1b78a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a95f11414babe1ab",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeup.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b44a59f9a4ad49f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d660222b752ea66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "783c53e71322a9f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "92c088b886888408",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b7597ee6931cd54d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f60d9f7db8a5d04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5a045b9185d86f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Writeup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a95f11414babe1ab",
+  "lastOpenFiles": [
+    "Writeup.md",
+    "Pasted image 20210702171310.png",
+    "Untitled.md"
+  ]
+}

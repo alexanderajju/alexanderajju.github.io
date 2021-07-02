@@ -1,10 +1,12 @@
 ---
-permalink: /writeup2
+permalink: /writeups2
 layout: pages
 description: Hackthebox
 ---
 
+# [Writeup](/writeup)
 
+Spectra is an easy difficulty Linux machine which has an Issue Software Tracker build on Wordpress.The directory listing discloses credentials which can be used to gain access to administration dashboard of the wordpress.
 
 # [Spectra](/spectra)
 
@@ -18,4 +20,4 @@ Tentacle is a Hard linux machine featuring a Squid proxy server bypassing. Revea
 
 Tenet is a Medium difficulty machine that features an Apache web server with wordpress blog site with few posts. Using serialization, made command execution on the box and made reverse shell.
 
-[back](/) [next](/writeup)
+[back](/) [next](/writeups)

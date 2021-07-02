@@ -5,7 +5,7 @@ author: egre55
 title: Spectra
 date: 2021-06-26
 publish: True
-description: "Spectra is an easy difficulty Linux machine which has an Issue Software Tracker build on Wordpress.The directory listing discloses credentials which can be used to gain access to administration dashboard of the wordpress. Using a reverse shell inital access to the box is made From the administrator dashboard. By further enumerating the system new credentials can be found in plain text and thus lateral movement can be achieved to another user. Finally exploting sudo perssion to init demon service to gain root."
+description: "Spectra is an easy difficulty Linux machine which has an Issue Software Tracker build on Wordpress.The directory listing discloses credentials which can be used to gain access to administration dashboard of the wordpress. Using a reverse shell initial access to the box is made From the administrator dashboard. By further enumerating the system new credentials can be found in plain text and thus lateral movement can be achieved to another user. Finally exploiting sudo perssion to init demon service to gain root."
 ---
 
 # Skills Learned
@@ -21,6 +21,7 @@ description: "Spectra is an easy difficulty Linux machine which has an Issue Sof
 * 80
 
 ```bash
+
 Nmap scan report for spectra.htb (10.10.10.229)
 Host is up (0.32s latency).
 Not shown: 995 closed ports
@@ -29,7 +30,7 @@ PORT      STATE    SERVICE   VERSION
 | ssh-hostkey: 
 |_  4096 52:47:de:5c:37:4f:29:0e:8e:1d:88:6e:f9:23:4d:5a (RSA)
 80/tcp    open     http      nginx 1.17.4
-|_http-title: Site doesn't have a title (text/html).
+|_http-title: Site doesnot have a title (text/html).
 3306/tcp  open     mysql     MySQL (unauthorized)
 |_ssl-date: ERROR: Script execution failed (use -d to debug)
 |_tls-nextprotoneg: ERROR: Script execution failed (use -d to debug)
