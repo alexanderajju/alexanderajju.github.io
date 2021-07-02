@@ -4,6 +4,7 @@ layout: pages
 description: Hackthebox
 ---
 
+
 # [Writeup](/writeup)
 
 Spectra is an easy difficulty Linux machine which has an Issue Software Tracker build on Wordpress.The directory listing discloses credentials which can be used to gain access to administration dashboard of the wordpress.
