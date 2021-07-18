@@ -4,8 +4,12 @@ layout: pages
 description: Hackthebox
 ---
 
+# [Breadcrumbs](/breadcrumbs)
+
+Breadcrumbs is a hard difficulty Windows machine running Apache web server with a library application.Directory enumeration and file read is leveraged to forge cookies and login as the administrator.
 
 # [Writeup](/writeup)
+
 
 Writeup is an easy difficulty Linux box with a CMS DoS protection in place to prevent brute forcing with a SQL injection vulnerability, which is leveraged to gain user credentials.
 

@@ -264,4 +264,4 @@ Sucessfully created new principle for the root and we can login as root in the b
 
 ![](/Writeups/Tentacle/Pasted image 20210620092319.png)
 
-[Back](/writeup2)
+[Back](/writeups2)

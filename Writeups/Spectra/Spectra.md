@@ -325,4 +325,4 @@ On executing the bash we can get root access.
 
 ![](/Writeups/Spectra/Pasted image 20210627040631.png)
 
-[Back](/writeup2)
+[Back](/writeups2)
