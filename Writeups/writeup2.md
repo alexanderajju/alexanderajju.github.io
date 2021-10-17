@@ -4,6 +4,8 @@ layout: pages
 description: Hackthebox
 ---
 
+
+
 # [Breadcrumbs](/breadcrumbs)
 
 Breadcrumbs is a hard difficulty Windows machine running Apache web server with a library application.Directory enumeration and file read is leveraged to forge cookies and login as the administrator.

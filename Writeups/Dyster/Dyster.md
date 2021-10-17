@@ -215,3 +215,5 @@ touch -- '--preserve=mode'
 	
 ![](/Writeups/Dynster/Pasted image 20211017085933.png)
 
+
+[back](/writeup)
