@@ -1,12 +1,10 @@
 ---
-permalink: /writeups2
+permalink: /writeups3
 layout: pages
 description: Hackthebox
 ---
 
-# [Dyster](/dyster)
 
-Dynstr is a medium difficulty Linux machine featuring a blog providing Dynamic DNS services. The application API is vulnerable to command injection using which a foothold can be gained.
 
 # [Breadcrumbs](/breadcrumbs)
 
@@ -29,4 +27,4 @@ Tentacle is a Hard linux machine featuring a Squid proxy server bypassing. Revea
 
 Tenet is a Medium difficulty machine that features an Apache web server with wordpress blog site with few posts. Using serialization, made command execution on the box and made reverse shell.
 
-[back](/) [next](/writeups)
+[back](/) [next](/writeup2)

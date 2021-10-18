@@ -5,7 +5,6 @@ author: jkr
 title: Writeup
 date: 2021-10-17
 publish: True
-Dyster
 description: "Dynstr is a medium difficulty Linux machine featuring a blog providing Dynamic DNS services. The application API is vulnerable to command injection using which a foothold can be gained. Enumerating one of the users folders leaks SSH private key. Updating DNS zone records allows SSH access which helps in lateral movement. By exploiting a wildcard injection in a bash script root access can be obtained.
 "
 
@@ -217,4 +216,4 @@ touch -- '--preserve=mode'
 ![](/Writeups/Dyster/Pasted image 20211017085933.png)
 
 
-[back](/writeup)
+[back](/writup)

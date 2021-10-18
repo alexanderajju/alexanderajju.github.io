@@ -3,9 +3,6 @@ permalink: /writeups
 layout: pages
 description: Hackthebox
 ---
-# [Dyster](/dyster)
-
-Dynstr is a medium difficulty Linux machine featuring a blog providing Dynamic DNS services. The application API is vulnerable to command injection using which a foothold can be gained.
 
 # [Ready](./Ready/Ready.html)
 
