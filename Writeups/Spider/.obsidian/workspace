@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "d9107d8b1c6ead21",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6b48389b2ecb366",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Spider.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f67ff634cf23ea84",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ef36a6a631b35b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66405116c1b8212c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "02c3c1c0eab54b96",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1a455e6b3a2bf58e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c6193ca0fb36ac1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ff75def899aafd6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Spider.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.54220581054688
+  },
+  "active": "e6b48389b2ecb366",
+  "lastOpenFiles": [
+    "Spider.md",
+    "Pasted image 20211023205658.png",
+    "Untitled.md"
+  ]
+}

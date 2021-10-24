@@ -4,6 +4,10 @@ layout: pages
 description: Hackthebox
 ---
 
+# [Spider](/spider)
+
+Spider is a hard difficulty Linux machine which focuses on web-based injection attacks. Server-Side Template Injection (SSTI) is first exploited to read the config object of a Flask application and obtain the SECRET_KEY string, which can be used to sign and verify session cookies.....
+
 # [Dyster](/dyster)
 
 Dynstr is a medium difficulty Linux machine featuring a blog providing Dynamic DNS services. The application API is vulnerable to command injection using which a foothold can be gained.

@@ -1,0 +1,13 @@
+current directory: /home/aju/alexanderajju.github.io/vendor/bundle/ruby/2.7.0/gems/json-2.6.0/ext/json
+/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20211018-247004-8vrrnk.rb extconf.rb
+creating Makefile
+
+current directory: /home/aju/alexanderajju.github.io/vendor/bundle/ruby/2.7.0/gems/json-2.6.0/ext/json
+make DESTDIR\= clean
+
+current directory: /home/aju/alexanderajju.github.io/vendor/bundle/ruby/2.7.0/gems/json-2.6.0/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: /home/aju/alexanderajju.github.io/vendor/bundle/ruby/2.7.0/gems/json-2.6.0/ext/json
+make DESTDIR\= install
