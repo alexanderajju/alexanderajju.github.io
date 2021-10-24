@@ -6,7 +6,7 @@ description: Hackthebox
 
 # [Spider](/spider)
 
-Spider is a hard difficulty Linux machine which focuses on web-based injection attacks. Server-Side Template Injection (SSTI) is first exploited to read the config object of a Flask application and obtain the SECRET_KEY string, which can be used to sign and verify session cookies.....
+Spider is a hard difficulty Linux machine which focuses on web-based injection attacks. Server-Side Template Injection (SSTI) is first exploited to read the config object of a Flask application and obtain the SECRET_KEY string, which can be used to sign and verify session cookies............
 
 # [Dyster](/dyster)
 

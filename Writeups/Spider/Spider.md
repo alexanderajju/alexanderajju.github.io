@@ -5,7 +5,7 @@ author: InfoSecJack & chivato
 title: Writeup
 date: 2021-10-24
 publish: True
-description: "Spider is a hard difficulty Linux machine which focuses on web-based injection attacks. Server-Side Template Injection (SSTI) is first exploited to read the config object of a Flask application and obtain the SECRET_KEY string, which can be used to sign and verify session cookies. An SQL injection attack carried through forged cookies allows attackers to retrieve login data from the database and gain administrative access to the web application. A second SSTI vulnerability is found in a support ticket portal. Exploiting this vulnerability, which requires bypassing a Web Application Firewall, results in arbitrary code execution and ultimately in an interactive shell on the system. Privileges can then be escalated by exploiting an XML External Entity (XXE) injection vulnerability in a beta web application running locally
+description: "Spider is a hard difficulty Linux machine which focuses on web-based injection attacks. Server-Side Template Injection (SSTI) is first exploited to read the config object of a Flask application and obtain the SECRET_KEY string, which can be used to sign and verify session cookies. An SQL injection attack carried through forged cookies allows attackers to retrieve login data from the database and gain administrative access to the web application. A second SSTI vulnerability is found in a support ticket portal. Exploiting this vulnerability, which requires bypassing a Web Application Firewall, results in arbitrary code execution and ultimately in an interactive shell on the system. Privileges can then be escalated by exploiting an XML External Entity (XXE) injection vulnerability in a beta web application running locally,
 "
 ---
 
